@@ -8,7 +8,8 @@ export default function Home() {
         Hello, Next.js!
       </h1>
       <Link href="/About">About</Link> <br />
-      <Link href="/Services">Services</Link>
+      <Link href="/Services">Services</Link> <br /> 
+      <Link href="/Blogs">Blogs</Link>
     </>
   );
 }

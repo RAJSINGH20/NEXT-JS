@@ -1,10 +1,10 @@
 import React from 'react'
 
-const blog1 = async({params}) => {
-    console.log(await params)
-    const {Blog} = await params;
+const blog1 = async({}) => {
+  
+    
   return (
-    <div>blog1 {Blog}</div>
+    <div><a href="/Blogs/1//Comments">Click here to view comments for this blog</a></div>
   )
 }
 

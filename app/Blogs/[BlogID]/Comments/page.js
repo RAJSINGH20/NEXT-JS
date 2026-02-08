@@ -1,9 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const blog1 = async({params}) => {
+    console.log(await params)
+    const {Blog} = await params;
   return (
-    <div>Comments</div>
+    <div>blog1 {Blog}</div>
   )
 }
 
-export default page
+export default blog1
